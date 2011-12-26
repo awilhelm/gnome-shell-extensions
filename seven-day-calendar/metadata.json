@@ -1,0 +1,7 @@
+{
+	"uuid": "seven-day-calendar",
+	"name": "Seven-Day Calendar",
+	"description": "Always show a whole seven-day week in the calendar, even on Friday.",
+	"url": "https://github.com/awilhelm/gnome-shell-extensions",
+	"shell-version": ["3.0.2", "3.2.1"]
+}
