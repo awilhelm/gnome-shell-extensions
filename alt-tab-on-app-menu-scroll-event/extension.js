@@ -1,4 +1,8 @@
 with(imports.ui.main) {
+with(imports.ui.main.panel._appMenu.actor) {
+with(imports.gi.Clutter.ScrollDirection) {
+
+let scroll_event;
 
 function on_scroll_event(actor, event) {
 
@@ -15,15 +19,13 @@ function on_scroll_event(actor, event) {
 	}
 
 	function step() {
-		with(imports.gi.Clutter.ScrollDirection) {
-			switch(event.get_scroll_direction()) {
-				case UP:
-				case LEFT:
-					return -1
-				case DOWN:
-				case RIGHT:
-					return 1
-			}
+		switch(event.get_scroll_direction()) {
+			case UP:
+			case LEFT:
+				return -1
+			case DOWN:
+			case RIGHT:
+				return 1
 		}
 	}
 
@@ -40,11 +42,11 @@ function on_scroll_event(actor, event) {
 function init() {}
 
 function enable() {
-	panel._appMenu.actor.connect('scroll-event', on_scroll_event)
+	scroll_event = connect('scroll-event', on_scroll_event)
 }
 
 function disable() {
-	panel._appMenu.actor.disconnect('scroll-event', on_scroll_event)
+	disconnect(scroll_event)
 }
 
-}
+}}}
