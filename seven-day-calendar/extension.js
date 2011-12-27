@@ -9,8 +9,6 @@ function init() {
 		hooks.orig.call(this)
 		hooks.after.call(this)
 	}
-
-	enable()
 }
 
 function enable() {

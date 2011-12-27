@@ -12,9 +12,7 @@ function on_scroll_event(actor, event) {
 	}
 }
 
-function init() {
-	enable()
-}
+function init() {}
 
 function enable() {
 	_group.connect('button-release-event', on_button_release_event)

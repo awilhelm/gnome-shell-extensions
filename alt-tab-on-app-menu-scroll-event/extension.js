@@ -37,9 +37,7 @@ function on_scroll_event(actor, event) {
 	activateWindow(windows[(i + step() + n) % n])
 }
 
-function init() {
-	enable()
-}
+function init() {}
 
 function enable() {
 	panel._appMenu.actor.connect('scroll-event', on_scroll_event)
