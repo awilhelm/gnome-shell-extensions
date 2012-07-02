@@ -1,7 +1,0 @@
-{
-	"uuid": "alt-tab-on-app-menu-scroll-event",
-	"name": "Alt+Tab on Scroll Event",
-	"description": "Cycle between windows with the mouse wheel.",
-	"url": "https://github.com/awilhelm/gnome-shell-extensions",
-	"shell-version": ["3.2.1"]
-}

@@ -1,7 +1,0 @@
-{
-	"uuid": "switch-workspace-on-overview-scroll-event",
-	"name": "Switch Workspace on Scroll Event",
-	"description": "Switch Workspace with the mouse wheel.",
-	"url": "https://github.com/awilhelm/gnome-shell-extensions",
-	"shell-version": ["3.0.2", "3.2.1"]
-}

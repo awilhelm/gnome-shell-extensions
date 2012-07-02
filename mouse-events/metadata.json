@@ -1,0 +1,7 @@
+{
+	"uuid": "mouse-events",
+	"name": "Mouse Events",
+	"description": "Cycle between windows or workspaces with the mouse wheel while your other hand enjoys a cup of tea.",
+	"url": "https://github.com/awilhelm/gnome-shell-extensions",
+	"shell-version": ["3.2", "3.4"]
+}
